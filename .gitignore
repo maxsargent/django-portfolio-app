@@ -1,2 +1,5 @@
 env
 db.sqlite3
+personal_portfolio/__pycache__
+projects/__pycache__
+projects/migrations/__pycache__

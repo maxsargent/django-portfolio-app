@@ -6,7 +6,7 @@ from projects.models import Project
 def project_index(request):
    project = Project.objects.all()
    context = {
-      'projects': projects
+      'projects': project
    }
    return render(request, 'project_index.html', context)
 

@@ -7,3 +7,4 @@ projects/db.sqlite3
 blog/__pycache__
 blog/migrations/__pycache__
 blog/db.sqlite3
+projects/db.sqlite

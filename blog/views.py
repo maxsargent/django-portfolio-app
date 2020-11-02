@@ -14,7 +14,7 @@ def blog_index(request):
 
 def blog_category(request, category):
     posts = Post.objects.filter(
-        categories__name_contains=category
+        categories__name__contains=category
     ).order_by(
         '-created_on'
     )
@@ -38,7 +38,7 @@ def blog_detail(request, pk):
             )
             comment.save()
 
-    comments = Comment.object.filter(post=post)
+    comments = Comment.objects.filter(post=post)
     context = {
         'post': post,
         'comments': comments,

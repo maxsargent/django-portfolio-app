@@ -4,3 +4,6 @@ personal_portfolio/__pycache__
 projects/__pycache__
 projects/migrations/__pycache__
 projects/db.sqlite3
+blog/__pycache__
+blog/migrations/__pycache__
+blog/db.sqlite3
